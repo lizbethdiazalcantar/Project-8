@@ -13,7 +13,7 @@ module.exports = {
     phoneNumberButton: '//div[starts-with(text(), "Phone number")]',
     nextButton: 'button=Next',
     confirmButton: 'button=Confirm',
-    messageButton: '//input[@id="comment"]',
+    //messageButton: '//input[@id="comment"]',
     supportiveButton: 'div=Supportive',
     paymentButton: '//div[@class="pp-text"]',
     addCardButton: '//div[starts-with(text(), "Add card")]',

@@ -8,8 +8,8 @@ describe('Create an order', () => {
         const phoneNumberButton = await $(page.phoneNumberButton);
         await phoneNumberButton.waitForDisplayed();
         await phoneNumberButton.click();
-        const pnoneNumberModal = await $(page.phoneNumberModal);
-        await expect(pnoneNumberModal).toBeExisting();
+        const phoneNumberModal = await $(page.phoneNumberModal);
+        await expect(phoneNumberModal).toBeExisting();
     })
 
     it('should save the phone', async () => {
@@ -154,7 +154,7 @@ describe('Create an order', () => {
         await moreIceCream.click();
         await moreIceCream.click();
         
-        const orderIceCream = await helper.getElementByText('0');
+       // const orderIceCream = await helper.getElementByText('0');
 
 
         //Get ice cream value counter
