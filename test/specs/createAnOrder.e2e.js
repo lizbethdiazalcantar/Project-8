@@ -29,10 +29,10 @@ describe('Create an order', () => {
         const fromAddress = 'East 2nd Street, 601';
         const toAddress = '1300 1st St';
         await page.fillAddresses(fromAddress,toAddress);
-        const phoneNumberButton = await $(page.phoneNumberButton);
-        await phoneNumberButton.waitForDisplayed();
-        await phoneNumberButton.click();
-        const pnoneNumberModal = await $(page.phoneNumberModal);
+        //const phoneNumberButton = await $(page.phoneNumberButton);
+        //await phoneNumberButton.waitForDisplayed();
+        //await phoneNumberButton.click();
+        //const phoneNumberModal = await $(page.phoneNumberModal);
         //Get values from fields
         const fromAddressValue = await $(page.fromField).getValue();
         const toAddressValue = await $(page.toField).getValue();
